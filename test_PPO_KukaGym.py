@@ -72,8 +72,8 @@ value = tf.squeeze(
 )
 critic = keras.Model(inputs=observation_input, outputs=value)
 
-actor.load_weights("test_model/PPO_kukaGym_round1950_actor_return20.h5")
-critic.load_weights("test_model/PPO_kukaGym_round1950_critic_return20.h5")
+actor.load_weights("test_model/PPO_actor_model.h5")
+critic.load_weights("test_model/PPO_critic_model.h5")
 
 
 
