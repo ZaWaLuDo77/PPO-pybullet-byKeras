@@ -23,7 +23,7 @@
 # 執行文件
 `train_PPO_KukaGym.py` : PPO開使訓練KukaGymEnv  
   
-`test_PPO_KukaGym.py` : 訓練完成後進行測試 (100次抓取 取成功率%) 
+`test_PPO_KukaGym.py` : 訓練完成後進行測試 ( 100次測試抓取後 輸出成功抓取機率 n% ) 
 
 # 超參數說明
 ```python
