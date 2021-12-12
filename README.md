@@ -57,5 +57,8 @@ buffer_size = 25000
 `hidden_sizes`  :MLP的神經元顆數  
 `buffer_size`  :重放區大小  
 
+# Finish
+![kukagym_Finsh](https://user-images.githubusercontent.com/94059864/145708278-ed93983c-0451-4625-a6f3-db7cfc1a2a02.gif)
+
   
 
