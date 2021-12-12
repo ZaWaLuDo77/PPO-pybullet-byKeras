@@ -16,7 +16,7 @@
   ※ 成功夾取後給予獎勵由 `1000` 調整為 `10000` (可自行調整)  
   ※ 執行 `step2` 可以輸出夾取的分數 `blockPos[2]`  
   
-  因此可以透過以下方式更新 kukaGymEnv.py  
+  可以透過以下方式更新 kukaGymEnv.py  
   (將 `kukaGymEnv_myself/kukaGymEnv.py` 更換pybullet安裝後提供的kukaGymEnv.py文件 `..(your env)../Lib/site-packages/pybullet_envs/bullet/kukaGymEnv.py` )
   
 
