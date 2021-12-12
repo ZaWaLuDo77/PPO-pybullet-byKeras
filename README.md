@@ -12,7 +12,7 @@
   (!!注意!!)  
   pybullet官方提供的kukaGymEnv環境有些瑕疵，在此做出些微調整:  
   ※ 執行 `step2` 時確保 `p.stepSimulation()` 執行完全  
-  ※ 獎勵不因執行 `_termination` 重複給予  
+  ※ 不因執行 `_termination` 重複給予獎勵  
   ※ 成功夾取後給予獎勵由 `1000` 調整為 `10000` (可自行調整)  
   ※ 執行 `step2` 可以輸出夾取的分數 `blockPos[2]`  
   
