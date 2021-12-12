@@ -16,8 +16,8 @@
   ※ 成功夾取後給予獎勵由 `1000` 調整為 `10000` (可自行調整)  
   ※ 執行 `step2` 可以輸出夾取的分數 `blockPos[2]`  
   
-  可以透過以下方式更新 kukaGymEnv.py  
-  (將 `kukaGymEnv_myself/kukaGymEnv.py` 更換pybullet安裝後提供的kukaGymEnv.py文件 `..(your env)../Lib/site-packages/pybullet_envs/bullet/kukaGymEnv.py` )
+  可以透過以下方式更新 kukaGymEnv.py :  
+  將 `kukaGymEnv_myself/kukaGymEnv.py` 更換pybullet安裝後提供的kukaGymEnv.py文件 `..(your env)../Lib/site-packages/pybullet_envs/bullet/kukaGymEnv.py` 
   
 
 # 執行文件
@@ -30,7 +30,7 @@
 env = KukaGymEnv(renders=False, isDiscrete=True, actionRepeat=10)  
 ```
 `renders = (True/False)`  :觀看環境影像  
-`isDiscrete = (True/False)`  :是否為離善環境  
+`isDiscrete = (True/False)`  :是否為離散環境  
 `actionRepeat = (int)`  :執行動作選取間隔  
 
 ```python
