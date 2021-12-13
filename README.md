@@ -19,6 +19,8 @@
   可以透過以下方式更新 kukaGymEnv.py :  
   將 `kukaGymEnv_myself/kukaGymEnv.py` 更換pybullet安裝後提供的kukaGymEnv.py文件 `..(your env)../Lib/site-packages/pybullet_envs/bullet/kukaGymEnv.py` 
   
+  (改善前)  
+  
 
 # 執行文件
 `train_PPO_KukaGym.py` : PPO開使訓練KukaGymEnv  
