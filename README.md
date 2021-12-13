@@ -11,16 +11,19 @@
   
   (!!注意!!)  
   pybullet官方提供的kukaGymEnv環境有些瑕疵，在此做出些微調整:  
-  ※ 執行 `step2` 時確保 `p.stepSimulation()` 執行完全  
+  ※ 執行 `step2` 時確保 `p.stepSimulation()` 執行完全，避免"動作命令"堆疊  
   ※ 不因執行 `_termination` 重複給予獎勵  
   ※ 成功夾取後給予獎勵由 `1000` 調整為 `10000` (可自行調整)  
   ※ 執行 `step2` 可以輸出夾取的分數 `blockPos[2]`  
   
   可以透過以下方式更新 kukaGymEnv.py :  
   將 `kukaGymEnv_myself/kukaGymEnv.py` 更換pybullet安裝後提供的kukaGymEnv.py文件 `..(your env)../Lib/site-packages/pybullet_envs/bullet/kukaGymEnv.py` 
-  
+    
   (改善前)  
-  
+  <img src="https://github.com/ZaWaLuDo77/PPO-pybullet-byKeras/blob/master/kukagym_picture/before.gif"   width = "375"/>  
+    
+  (改善後)  
+  <img src="https://github.com/ZaWaLuDo77/PPO-pybullet-byKeras/blob/master/kukagym_picture/after.gif"   width = "375"/>  
 
 # 執行文件
 `train_PPO_KukaGym.py` : PPO開使訓練KukaGymEnv  
