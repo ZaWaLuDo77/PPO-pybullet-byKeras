@@ -1,5 +1,5 @@
 # PPO pybullet by Keras
-透過Tensorflow2 內建 Keras 執行Proximal Policy Optimization (PPO)來學習強化學習，引用 pybullet 套件中的KukaGymEnv作為訓練環境。
+透過Tensorflow2 內建 Keras 執行Proximal Policy Optimization (PPO)來訓練智能體自我學習，引用 pybullet 套件中的KukaGymEnv作為訓練環境。
 
 
 # 首要工作  
